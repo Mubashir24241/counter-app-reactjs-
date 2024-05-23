@@ -8,7 +8,7 @@ function App() {
   
     const addValue = () => {
       if (counter < 15) {
-        setCounter(counter + 1);
+        setCounter(counter +  1);
         
       }
     };

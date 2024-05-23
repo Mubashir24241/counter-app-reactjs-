@@ -11,7 +11,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(211, 151, 227);
+  background-color: rgb(211, 151, 228);
   height: 100vh; /* Adjust this value if needed */
 }
 
