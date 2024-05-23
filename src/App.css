@@ -2,17 +2,19 @@
 body{
   
   /* background: linear-gradient(to right, pink 50%, yellow 50%); */
-  background: linear-gradient(to right, #395fc0, #5361cf, #4562ce, #8fabc6);
+  background: linear-gradient(to right, #516cb2, #525dae, #458ece, #8fabc6);
 }
 
 
 .container {
   display: flex;
   flex-direction: column;
+  border-radius: 25px;
   align-items: center;
   justify-content: center;
-  background-color: rgb(211, 151, 227);
+  background-color: linear-gradient(to right, #52669a, #000000, #3e5092, #8fabc6);
   height: 100vh; /* Adjust this value if needed */
+  
 }
 
 h1 {
@@ -27,10 +29,11 @@ h2 {
 }
 
 button {
-  background-color: #6a4bb8;
+  background-color: #35577d;
   color: #fff;
   border: none;
   padding: 10px 20px;
+  margin-top: 10px;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
@@ -38,7 +41,7 @@ button {
 }
 
 button:hover {
-  background-color: #2545a4;
+  background-color: #3262f2;
 }
 
 p {
@@ -49,11 +52,12 @@ p {
 }
 
 .box {
-  background-color: #e57a7a;
+  background-color: #92b4d1;
   align-items: center;
   text-align: center;
   margin: 10px;
   padding: 10px;
-  border: #2545a4 solid thin;
+  border: #000001 solid ;
   display: inline-block;
+  border-radius: 25px;
 }
